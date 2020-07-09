@@ -1,0 +1,5 @@
+@import url('./_underline/menu__item_underline_white_theme.css');
+
+.menu__item_white_theme a {
+  color: #1A1B22;
+}

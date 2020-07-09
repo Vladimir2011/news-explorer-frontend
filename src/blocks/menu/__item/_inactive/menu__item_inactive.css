@@ -1,0 +1,7 @@
+.menu__item_inactive a {
+  opacity: 0.5;
+}
+
+.menu__item_inactive a:hover {
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+.results__more {
+  width: 288px;
+  height: 64px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  cursor: pointer;
+}
+
+.results__more:hover {
+  background: #e8e8e8;
+  cursor: pointer;
+}
+
+.results__more:focus {
+  outline: none;
+}

@@ -1,0 +1,23 @@
+.card__trashcan {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 11px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.card__trashcan:hover .trashcan {
+  background-image: url(../../../images/trash-black.svg);
+}
+
+.card__trashcan:focus {
+  outline: none;
+}
+
+.card__trashcan:hover .card__suggest {
+  visibility: visible;
+}

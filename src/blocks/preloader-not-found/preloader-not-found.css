@@ -1,0 +1,14 @@
+@import url('./__img/preloader-not-found__img.css');
+@import url('./__text/preloader-not-found__text.css');
+@import url('./__title/preloader-not-found__title.css');
+
+.preloader-not-found {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  background-color: #F5F6F7;
+  padding: 83px 0;
+  display: none;
+
+}

@@ -1,0 +1,28 @@
+.card__bookmark {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-left: 84%;
+  padding: 11px 13px 15px 13px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.card__bookmark:focus {
+  outline: none;
+}
+
+.card__bookmark:hover .bookmark {
+  background-image: url(../../../images/bookmark-hover.svg);
+}
+
+.card__bookmark:hover .bookmark_marked {
+  background-image: url(../../../images/bookmark-marked.svg);
+}
+
+.card__bookmark:hover .card__login {
+  visibility: visible;
+}

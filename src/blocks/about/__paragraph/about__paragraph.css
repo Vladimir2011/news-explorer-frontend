@@ -1,0 +1,12 @@
+.about__paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+
+  color: #1A1B22;
+}

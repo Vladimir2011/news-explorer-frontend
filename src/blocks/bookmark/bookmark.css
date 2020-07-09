@@ -1,0 +1,6 @@
+.bookmark {
+  height: 19px;
+  width: 14px;
+  background-image: url(../../images/bookmark.svg);
+  background-repeat: no-repeat;
+}

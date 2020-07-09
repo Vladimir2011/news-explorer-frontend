@@ -7,7 +7,7 @@
     <meta name="description" content="Поисковик для новостей">
     <meta name="author" content="Гарбузов Владимир">
     <title>NewsExplorer</title>
-    <link rel="icon" href="" type="image/svg">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg">
     <link rel="stylesheet" href="">
   </head>
 <body>
@@ -18,11 +18,11 @@
           <a class="header__logo" href="#">NewsExplorer</a>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item">
-                <a class="menu__link" href="./index.html">Главная</a>
+              <li class="menu__item menu__item_underline">
+                <a href="./index.html">Главная</a>
               </li>
-              <li class="menu__item">
-                <a class="menu__link" href="./articles.html">Сохраненные статьи</a>
+              <li class="menu__item menu__item_inactive">
+                <a href="./articles.html">Сохраненные статьи</a>
               </li>
               <li class="menu__item">
                 <button class="menu__login">Авторизоваться</button>
@@ -53,7 +53,7 @@
 
 
       <section class="preloader-not-found">
-        <img class="preloader-not-found__img" alt="Увы, ничего не найдено" src="">
+        <img class="preloader-not-found__img" src="<%=require('./images/not-found_v1.svg').default%>" alt="Увы, ничего не найдено">
         <h3 class="preloader-not-found__title">Ничего не найдено</h3>
         <p class="preloader-not-found__text">К сожалению, по вашему запросу ничего не найдено.</p>
       </section>
@@ -62,64 +62,61 @@
         <h2 class="results__title">Результаты поиска</h2>
 
         <div class="cardbox">
-          <div class="cardbox__container">
 
-            <div class="card">
-              <img class="card__image" alt="Иллюстрация статьи" src="<%=require('./images/image_08-min.png').default%>">
-              <div class="card__actions">
-                <div class="card__bookmark">
-                  <p class="card__login">Войдите, чтобы сохранять статьи</p>
-                  <div class="bookmark"></div>
-                </div>
+          <div class="card">
+            <img class="card__image" alt="Иллюстрация статьи" src="<%=require('./images/card-image-1.jpg').default%>">
+            <div class="card__actions">
+              <div class="card__bookmark">
+                <p class="card__suggest">Войдите, чтобы сохранять статьи</p>
+                <div class="bookmark"></div>
               </div>
-              <div class="card__textblock">
-                <p class="card__date">2 августа, 2019</p>
-                <h3 class="card__title">Национальное достояние – парки</h3>
-                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-              </div>
-              <p class="card__source">Лента.ру</p>
             </div>
+            <div class="card__textblock">
+              <p class="card__date">2 августа, 2019</p>
+              <h3 class="card__title">Национальное достояние – парки</h3>
+              <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+            </div>
+            <p class="card__source">Лента.ру</p>
+          </div>
 
-            <div class="card">
-              <img class="card__image" alt="Иллюстрация статьи" src="<%=require('./images/image_04-min.png').default%>">
-              <div class="card__actions">
-                <div class="card__bookmark">
-                  <div class="card__login">Войдите, чтобы сохранять статьи</div>
-                  <div class="bookmark"></div>
-                </div>
+          <div class="card">
+            <img class="card__image" alt="Иллюстрация статьи" src="<%=require('./images/card-image-2.jpg').default%>">
+            <div class="card__actions">
+              <div class="card__bookmark">
+                <div class="card__suggest">Войдите, чтобы сохранять статьи</div>
+                <div class="bookmark bookmark_marked"></div>
               </div>
-              <div class="card__textblock">
-                <p class="card__date">2 августа, 2019</p>
-                <h3 class="card__title">Лесные огоньки: история одной фотографии</h3>
-                <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-              </div>
-              <p class="card__source">Медуза</p>
             </div>
+            <div class="card__textblock">
+              <p class="card__date">2 августа, 2019</p>
+              <h3 class="card__title">Лесные огоньки: история одной фотографии</h3>
+              <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+            </div>
+            <p class="card__source">Медуза</p>
+          </div>
 
-            <div class="card">
-              <img class="card__image" alt="Иллюстрация статьи" src="<%=require('./images/image_07-min.png').default%>">
-              <div class="card__actions">
-                <div class="card__bookmark">
-                  <div class="card__login">Войдите, чтобы сохранять статьи</div>
-                  <div class="bookmark bookmark_marked"></div>
-                </div>
+          <div class="card">
+            <img class="card__image" alt="Иллюстрация статьи" src="<%=require('./images/card-image-3.jpg').default%>">
+            <div class="card__actions">
+              <div class="card__bookmark">
+                <div class="card__suggest">Войдите, чтобы сохранять статьи</div>
+                <div class="bookmark"></div>
               </div>
-              <div class="card__textblock">
-                <p class="card__date">2 августа, 2019</p>
-                <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-                <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-              </div>
-              <p class="card__source">Риа</p>
             </div>
-
+            <div class="card__textblock">
+              <p class="card__date">2 августа, 2019</p>
+              <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+              <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
             </div>
+            <p class="card__source">Риа</p>
           </div>
         </div>
+        <button class="results__more">Показать еще</button>
       </section>
 
       <section class="about">
         <div class="about__container">
-          <img class="about__image" alt="Фото автора" src="">
+          <img class="about__image" alt="Фото автора" src="<%=require('./images/image-03.png').default%>">
           <div class="about__textblock">
             <h2 class="about__header">Об Авторе</h2>
             <p class="about__paragraph">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
@@ -133,18 +130,22 @@
       <div class="footer__container">
         <p class="footer__copyright">&#169; 2020 Supersite, Powered by News API</p>
         <div class="footer__wrapper">
-          <nav class="footer__menu">
+          <nav>
             <ul class="footer__list">
-              <a class="footer__item" href="./index.html">Главная</a>
-              <a class="footer__item" target="_blank" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
+              <li class="footer__item">
+                <a href="./index.html">Главная</a>
+              </li>
+              <li class="footer__item">
+                <a target="_blank" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
+              </li>
             </ul>
           </nav>
           <div class="footer__icon-container">
             <a class="footer__icon" target="_blank" href="https://github.com/Vladimir2011">
-              <img class="footer__icon_pic" alt="Перейти на страницу github" src="">
+              <img class="footer__icon-pic" alt="Перейти на страницу github" src="<%=require('./images/github.svg').default%>">
             </a>
             <a class="footer__icon" target="_blank" href="https://facebook.com">
-              <img class="footer__icon_pic" alt="Перейти на страницу facebook" src="">
+              <img class="footer__icon-pic" alt="Перейти на страницу facebook" src="<%=require('./images/facebook.svg').default%>">
             </a>
           </div>
         </div>
@@ -153,7 +154,7 @@
 
     <div class="popup">
       <div class="popup__content">
-        <img alt="Закрыть" class="popup__close" src="">
+        <img alt="Закрыть" class="popup__close" src="<%=require('./images/close.svg').default%>">
         <h4 class="popup__title">Вход</h4>
         <form class="popup__form form" name="login">
           <label class="form__field">Email</label>
@@ -170,7 +171,7 @@
 
     <div class="popup">
       <div class="popup__content">
-        <img alt="Закрыть" class="popup__close" src="">
+        <img alt="Закрыть" class="popup__close" src="<%=require('./images/close.svg').default%>">
         <h4 class="popup__title">Регистрация</h4>
         <form class="popup__form popup__form_register" name="register">
           <label class="form__field">Email</label>
@@ -190,7 +191,7 @@
 
     <div class="popup">
       <div class="popup__content">
-        <img alt="Закрыть" class="popup__close" src="">
+        <img alt="Закрыть" class="popup__close" src="<%=require('./images/close.svg').default%>">
         <h4 class="popup__title">Пользователь успешно зарегистрирован</h4>
         <a class="popup__enter popup__link">Выполнить вход</a>
       </div>
