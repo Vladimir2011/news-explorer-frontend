@@ -7,3 +7,9 @@
   padding-bottom: 64px;
   width: 100%;
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .cardbox {
+    padding-bottom: 15px;
+  }
+}

@@ -4,4 +4,26 @@
   min-height: 50px;
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
+  max-width: 1440px;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .footer__container {
+    padding: 2% 5%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .footer__container {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .footer__container {
+    padding: 25px 16px 10%;
+    height: auto;
+  }
 }

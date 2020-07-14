@@ -10,7 +10,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  
+
   color: #FFFFFF;
   cursor: pointer;
 }
@@ -18,4 +18,11 @@
 .form__button:disabled {
   background: #E6E8EB;
   color: #B6BCBF;
+}
+
+@media (max-width: 430px) and (min-width: 320px) {
+  .form__button {
+    width: 288px;
+    align-self: center;
+  }
 }

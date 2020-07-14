@@ -20,3 +20,9 @@
   justify-content: center;
   display: none;
 }
+
+@media (max-width: 430px) and (min-width: 320px) {
+  .popup {
+    background: transparent;
+  }
+}

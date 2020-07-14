@@ -1,4 +1,5 @@
 @import url('./__list/menu__list.css');
+@import url('./__list/menu__list_mobile.css');
 @import url('./__item/menu__item.css');
 @import url('./__item/menu__item_white_theme.css');
 @import url('./__login/menu__login.css');

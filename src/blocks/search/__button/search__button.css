@@ -1,6 +1,7 @@
 .search__button {
   position: absolute;
   right: 0;
+  top: 0;
   height: 64px;
   width: 169px;
   background-color: #2F71E5;
@@ -24,4 +25,20 @@
   background-color: #2A65CC;;
   cursor: pointer;
   outline: none
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .search__button {
+    height: 56px;
+    width: 160px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .search__button {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    margin-top: 16px;
+  }
 }

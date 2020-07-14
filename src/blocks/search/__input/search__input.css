@@ -20,3 +20,18 @@
   outline: none;
   color:#1A1B22;
 }
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .search__input {
+    height: 56px;
+    width: 448px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .search__input {
+    height: 56px;
+    padding-right: 0;
+    width: 100%;
+  }
+}

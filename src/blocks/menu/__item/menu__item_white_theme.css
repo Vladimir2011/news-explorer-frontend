@@ -3,3 +3,13 @@
 .menu__item_white_theme a {
   color: #1A1B22;
 }
+
+.menu__item_white_theme:first-child a:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .menu__item_white_theme a {
+    color: #fff;
+  }
+}

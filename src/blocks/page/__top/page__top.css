@@ -1,5 +1,7 @@
 .page__top {
+  max-width: 1440px;
   background-image: url(../../../images/header-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }

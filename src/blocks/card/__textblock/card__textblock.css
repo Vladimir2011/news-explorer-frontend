@@ -1,5 +1,11 @@
 .card__textblock {
-  padding: 15px 20px 0px;
-  min-height: 250px;
+  padding-left: 24px;
+  padding-right: 24px;
   text-align: left;
+}
+
+@media (max-width: 768px) and (min-width: 321px) {
+  .card__textblock {
+    padding-left: 16px;
+  }
 }

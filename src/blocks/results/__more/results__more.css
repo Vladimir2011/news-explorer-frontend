@@ -21,3 +21,17 @@
 .results__more:focus {
   outline: none;
 }
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .results__more {
+    width: 260px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .results__more {
+    width: 288px;
+    height: 56px;
+  }
+}

@@ -1,3 +1,15 @@
 .saved-articles__container {
   padding: 62px 102px;
 }
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .saved-articles__container {
+    padding: 0 37px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .saved-articles__container {
+    padding: 0 0;
+  }
+}

@@ -11,3 +11,15 @@
 .articles__keywords span {
   font-weight: bold;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .articles__keywords {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .articles__keywords {
+    font-size: 18px;
+  }
+}

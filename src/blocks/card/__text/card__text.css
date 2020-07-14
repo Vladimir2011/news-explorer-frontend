@@ -6,7 +6,12 @@
   font-family: 'Roboto', sans-serif;
 
   color: #1A1B22;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 18px;
+  overflow-y: hidden;
+}
+
+@media (max-width: 1439px) {
+  .card__text {
+    height: 88px;
+    text-overflow: ellipsis;
+  }
 }
