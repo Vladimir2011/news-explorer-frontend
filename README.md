@@ -57,4 +57,4 @@
 2. После класса header__logo header__logo_white_theme добавить класс header__logo_menu
 3. После класса menu__list добавить класс menu__list_mobile
 
-### Версия проекта: 1.1.0
+### Версия проекта: 1.2.0
