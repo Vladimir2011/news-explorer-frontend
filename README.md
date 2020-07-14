@@ -12,7 +12,7 @@
 
 ### Адрес на gh-pages:
 
-**
+*https://vladimir2011.github.io/news-explorer-frontend/*
 
 ### Сборки
 
