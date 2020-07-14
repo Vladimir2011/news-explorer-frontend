@@ -1,0 +1,22 @@
+.card__source {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: uppercase;
+
+  color: #B6BCBF;
+  margin: 0;
+  padding: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+@media (max-width: 768px) and (min-width: 321px) {
+  .card__source{
+    padding-left: 16px;
+  }
+}

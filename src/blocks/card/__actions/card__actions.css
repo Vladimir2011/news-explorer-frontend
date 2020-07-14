@@ -1,0 +1,9 @@
+.card__actions {
+  position: absolute;
+  width: 95%;
+  top: 4%;
+  left: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

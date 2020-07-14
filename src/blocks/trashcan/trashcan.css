@@ -1,0 +1,8 @@
+.trashcan {
+  width: 21px;
+  height: 24px;
+  background-image: url(../../images/trash.svg);
+  background-repeat: no-repeat;
+  margin-left: -3px;
+  margin-top: -3px;
+}

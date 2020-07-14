@@ -1,0 +1,34 @@
+@import url('./_underline/menu__item_underline.css');
+@import url('./_inactive/menu__item_inactive.css');
+
+.menu__item a {
+  font-size: 18px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-left: 32px;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .menu__item a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .menu__item a {
+    font-size: 18px;
+    line-height: 56px;
+  }
+
+  .menu__item .menu__logout {
+    margin-left: 0;
+  }
+
+  .menu__item .menu__login {
+    margin-left: 0;
+  }
+}

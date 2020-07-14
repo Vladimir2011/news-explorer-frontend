@@ -1,0 +1,14 @@
+.search__paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .search__paragraph {
+    margin-bottom: 122px;
+  }
+}

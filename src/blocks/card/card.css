@@ -1,0 +1,51 @@
+@import url('./__actions/card__actions.css');
+@import url('./__bookmark/card__bookmark.css');
+@import url('./__date/card__date.css');
+@import url('./__image/card__image.css');
+@import url('./__suggest/card__suggest.css');
+@import url('./__source/card__source.css');
+@import url('./__text/card__text.css');
+@import url('./__textblock/card__textblock.css');
+@import url('./__title/card__title.css');
+@import url('./__keyword/card__keyword.css');
+@import url('./__trashcan/card__trashcan.css');
+
+.card {
+  position: relative;
+  width: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 8px;
+  border-radius: 16px;
+  transition: box-shadow .3s;
+  padding-bottom: 24px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 25px rgba(158, 117, 117, 0.15);
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+  .card {
+    width: 32%;
+    margin: .6%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 560px) {
+  .card {
+    height: 480px;
+    width: 48%;
+    margin: 2% 1%;
+  }
+}
+
+@media (max-width: 559px) and (min-width: 320px) {
+  .card {
+    height: 520px;
+    width: 90%;
+    margin: 2% 5%;
+  }
+}
